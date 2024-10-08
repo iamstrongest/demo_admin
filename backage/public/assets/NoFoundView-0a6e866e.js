@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as o,a as s}from"./index-7c1ba45c.js";const a={},n={class:"container"},c=s("h1",null,"a oh, It appears that there is a problem with your request path or that you do not have permission to access it ",-1),_=[c];function r(i,d){return t(),o("div",n,_)}const u=e(a,[["render",r]]);export{u as default};

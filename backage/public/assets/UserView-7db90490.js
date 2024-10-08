@@ -1,0 +1,1 @@
+import{u as o,g as a,h as r,i as u,o as n,c as _,a as c}from"./index-b0930379.js";const i={class:"about"},l=c("h1",null,"This is an about page",-1),p=[l],y={__name:"UserView",setup(h){const e=o(),s=a(),t=r();return u(()=>{s.userInfo.roleType.includes(t.meta.authority)||e.push("/")}),(d,f)=>(n(),_("div",i,p))}};export{y as default};

@@ -1,0 +1,1 @@
+import{_ as e,o,c as s,a as t}from"./index-b0930379.js";const _={},n={class:"container"},c=t("h1",null,"a oh, it seems like your url is error",-1),r=[c];function a(i,d){return o(),s("div",n,r)}const u=e(_,[["render",a]]);export{u as default};

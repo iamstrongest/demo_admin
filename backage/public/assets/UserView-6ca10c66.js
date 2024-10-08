@@ -1,0 +1,1 @@
+import{u as s,l as t,m as a,o,c as r,a as n,t as _,g as u}from"./index-7c1ba45c.js";const c={class:"about"},d={__name:"UserView",setup(i){s();const e=t();return a(()=>{}),(l,p)=>(o(),r("div",c,[n("h1",null,"user is "+_(u(e).params.id),1)]))}};export{d as default};

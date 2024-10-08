@@ -1,0 +1,1 @@
+import{u as n,g as a,o as c,c as r,a as t}from"./index-b0930379.js";const _={class:"login-container"},u=t("h1",null,"欢迎来到登录界面",-1),g={__name:"LoginView",setup(i){const e=n(),o=a();async function s(){await o.getUserInfo(),o.addRoutes(e),e.push("/")}return(l,d)=>(c(),r("div",_,[u,t("button",{onClick:s},"点击登录")]))}};export{g as default};
