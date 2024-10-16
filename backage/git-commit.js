@@ -2,7 +2,7 @@
  * @Author: strongest-qiang 1309148358@qq.com
  * @Date: 2024-10-16 14:14:19
  * @LastEditors: strongest-qiang 1309148358@qq.com
- * @LastEditTime: 2024-10-16 14:14:29
+ * @LastEditTime: 2024-10-16 15:01:16
  * @FilePath: \Front-end\Vue\Vue3\demo\认证\backage\git-commit.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -20,9 +20,9 @@ async function commitToGit() {
     // 检查 Git 仓库状态
     const status = await git.status();
     console.log("当前状态:", status);
-
+    const targetDIrname = path.join(__dirname, "../");
     // 添加文件到暂存区
-    await git.add("./*"); // 添加所有文件
+    await git.add(`${targetDIrname}/*`); // 添加所有文件
     console.log("所有文件已添加到暂存区");
 
     // 提交更改
