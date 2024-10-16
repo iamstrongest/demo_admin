@@ -13,8 +13,6 @@ dist
 dist-ssr
 coverage
 *.local
-public1
-config/deploy.js
 /cypress/videos/
 /cypress/screenshots/
 
@@ -27,3 +25,5 @@ config/deploy.js
 *.njsproj
 *.sln
 *.sw?
+public1/*
+config/deploy.js
