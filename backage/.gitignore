@@ -26,4 +26,4 @@ coverage
 *.sln
 *.sw?
 public1/*
-config/deploy.js
+config/*.js
